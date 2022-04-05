@@ -1,0 +1,1 @@
+Este proyecto contiene los conceptos básicos de JavaScript

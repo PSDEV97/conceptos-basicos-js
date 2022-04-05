@@ -1,6 +1,7 @@
 /* Solo funciona en el navegador */
+// -> Las sigueintes funciones son bloqueantes, osea, no se siguen ejecitandos las demás líneas de código hasta que se terminen de ejecutar
 
-/* Muestra una alerta en el navegador -> Son bloqueantes  */
+/* Muestra una alerta en el navegador  */
 alert('Esto es una alerta')
 
 /* Retorna un string */
