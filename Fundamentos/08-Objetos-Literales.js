@@ -22,3 +22,5 @@ Object.entries(persona) //devuelve un array con las propiedades de un objeto y s
 Object.freeze(persona) //Impide que se agreguen o modifiquen las propiedades del objeto
 
 Object.getOwnPropertyNames(persona) //Devuelve un arreglo de los nombres de las propiedades del objeto
+
+//Desestructuración
