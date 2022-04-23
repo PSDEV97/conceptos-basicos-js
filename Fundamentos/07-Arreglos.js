@@ -4,17 +4,17 @@
 
 //Declaración de arreglos
 
-//Vacio
+//Vacío
 let arr = [];
 
-//De vacio de varios elementos 
-let arr2 = new Array(5) //crea un arreglo de 5 elementos vacio
+//De vacío de varios elementos 
+let arr2 = new Array(5) //crea un arreglo de 5 elementos vacío 
 
 //Con valores iniciales
 let videoJuegos = ["Mario Bros", "Megaman"] //crea un array con 2 elementos
 
 //La primera posición de un arreglo empieza por el 0
-//Ej: si se quiere obtener el primer elemento del arraglo de videoJuegos 
+//Ej: si se quiere obtener el primer elemento del arreglo de videoJuegos 
 videoJuegos[0]
 
 //Manejo de información con arreglos

@@ -49,6 +49,6 @@ function crearPersona( nombre, apellido ) {
 const crearPersona2 = (nombre, apellido ) => ({nombre, apellido})
 
 //para poder utilizar los argumentos dentro de una función de flecha se debe de realizar de la siguiente forma
-const argumentos = ( ...args ) => { //Parametro rest
+const argumentos = ( ...args ) => { //Parámetro rest
     console.log( args)
 }

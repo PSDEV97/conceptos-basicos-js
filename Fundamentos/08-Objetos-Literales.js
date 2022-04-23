@@ -4,7 +4,7 @@ let persona = {
     nombre: 'Antonio',
     apellido: 'Banderas',
     edad: 61,
-    'esta vivo': true, //para colocar especios o guiones en los nombres de propiedad hay que colocarlos como string
+    'esta vivo': true, //para colocar espacios o guiones en los nombres de propiedad hay que colocarlos como string
 }
 
 //Acceder a una propiedad del objeto

@@ -26,8 +26,8 @@ otrasFrutas.push('Uva')
 
 console.table({ frutas, otrasFrutas})
 
-//Para evitar lo anterio se usa el operador sprint
-const frutas2 = [...frutas] //tambien se puede usar frutas.slice()
+//Para evitar lo anterior se usa el operador sprint
+const frutas2 = [...frutas] //también se puede usar frutas.slice()
 frutas2.push('Mango')
 
 console.table({frutas, frutas2})
