@@ -1,23 +1,34 @@
-//Estilos
-import { buscarHeroe as buscarHeroeCallbacks } from './js/callbacks';
-import { buscarHeroe } from './js/promesas';
-import './styles.css';
+//import { buscarHeroe, buscarHeroeAsync } from "./js/promesas";
 
-const heroeId1 = 'capi'
-const heroeId2 = 'iron'
+import { heroeAwait, heroesCiclo } from "./js/await";
 
-/* buscarHeroe( heroeId1, ( err, heroe ) => {
+//import { obtenerHeroesArr, obtenerHeroesAwait } from "./js/await";
 
-    if( err ){
 
-        console.log( err );
-    }else {
-        console.error( heroe );
-    }
-}) */
+/* promesaLenta.then( console.log )
+promesaMedia.then( console.log )
+promesaRapida.then( console.log ) */
 
-buscarHeroe( heroeId1 ).then(heroe => {
-    console.log(`Enviando a ${ heroe.nombre } a la misión`);
-})
+/* Promise.race([ promesaLenta, promesaMedia, promesaRapida])
+    .then( console.log )
+    .catch( console.warn ) */
 
-console.log('Fin del programa');
+/* buscarHeroe( 'capi2' )
+    .then( console.log )
+    .catch( console.warn )
+
+buscarHeroeAsync( 'iron2' )
+    .then( console.log )
+    .catch( console.warn ) */
+
+/* console.time('await')
+obtenerHeroesAwait('capi2')
+    .then( heroe => {    
+        console.log(heroe)
+        console.timeEnd('await')        
+    } )
+    .catch( console.warn ) */
+
+heroesCiclo()
+
+heroeAwait('capi')
